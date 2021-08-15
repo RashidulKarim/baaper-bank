@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baaper Bank</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-blue-100">
+    <header>
+      <h1 class="text-6xl text-center my-16 font-semibold">
+        Welcome to the <span class="text-yellow-400">Baaper Bank</span>!!!
+      </h1>
+    </header>
+    <main>
+      <section class="login-section bg-purple-100 w-3/4 mx-auto">
+        <div class="p-8">
+          <h3
+            class="
+              text-3xl text-blue-700 text-center text-gray-600
+              font-semibold
+              mb-6
+            "
+          >
+            Please Login
+          </h3>
+          <input
+            class="
+              block
+              w-1/2
+              mb-4
+              mx-auto
+              px-6
+              border-2
+              rounded
+              border-purple-800
+              py-2
+            "
+            type="email"
+            placeholder="please use sontan@baap.com as email"
+            name=""
+            id="userEmail"
+          />
+          <input
+            class="
+              block
+              w-1/2
+              mb-4
+              mx-auto
+              px-6
+              border-2
+              py-2
+              rounded
+              border-purple-800
+            "
+            type="password"
+            name=""
+            id="userPassword"
+            placeholder="Please use 'secret' as a password"
+          />
+          <div class="text-center">
+            <button
+              id="submitBtn"
+              class="
+                bg-yellow-300
+                px-8
+                py-2
+                w-1/4
+                border-2
+                rounded
+                border-purple-300
+                hover:bg-blue-700 hover:text-white
+                font-bold
+              "
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
